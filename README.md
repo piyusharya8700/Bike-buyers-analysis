@@ -26,3 +26,17 @@ To prepare the dataset for deeper Pivot Table analysis and visualization, I am c
 
 ## 🛠️ Tech Stack
 * **Tool:** Microsoft Excel (AutoFilter Auditing, Logical Formulas, Text Standardization, Data Deduplication)
+---
+
+## 📊 Phase 3: Data Visualizations & Key Insights
+To uncover purchasing trends, I built targeted Pivot Charts to segment our buyers. 
+
+### 🎯 Insight 1: Age Demographics vs. Bike Ownership
+By implementing dynamic age segmentation, the data reveals that the primary customer base is concentrated heavily in core working-age demographics:
+* **Middle-aged Adults** represent the highest conversion group at **52%**.
+* **Young Adults** follow closely behind at **44%**.
+* **Senior Citizens** make up the smallest consumer segment at just **4%**.
+
+![Age Group Demographic Chart](age_demographics_chart.png)
+
+*This breakdown suggests marketing campaigns should heavily target young and middle-aged working professionals.*
