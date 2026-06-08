@@ -20,12 +20,13 @@ Before moving into analytical modeling, I executed a strict data cleaning workfl
 
 ---
 
-## 📈 Phase 2: Data Transformation & Feature Engineering (In Progress)
-To prepare the dataset for deeper Pivot Table analysis and visualization, I am currently working on:
-* **Dynamic Age Segmentation:** Implementing a nested `IF` logical formula to group individual customer ages into business-focused demographic buckets (`Young Adult`, `Middle age adult`, etc.).
+## 📈 Phase 2: Data Transformation & Feature Engineering
+To prepare the dataset for deeper Pivot Table analysis and visualization, I completed:
+* **Dynamic Age Segmentation:** Implemented a nested `IF` logical formula to group individual customer ages into business-focused demographic buckets (`Young Adult`, `Middle age adult`, etc.).
 
 ## 🛠️ Tech Stack
-* **Tool:** Microsoft Excel (AutoFilter Auditing, Logical Formulas, Text Standardization, Data Deduplication)
+* **Tool:** Microsoft Excel (AutoFilter Auditing, Logical Formulas, Text Standardization, Data Deduplication, Pivot Charts)
+
 ---
 
 ## 📊 Phase 3: Data Visualizations & Key Insights
@@ -39,4 +40,14 @@ By implementing dynamic age segmentation, the data reveals that the primary cust
 
 ![Age Group Demographic Chart](image/age_demographics_chart.png)
 
-*This breakdown suggests marketing campaigns should heavily target young and middle-aged working professionals.*
+*Business Recommendation: Marketing campaigns should heavily target young and middle-aged working professionals.*
+
+### 🎯 Insight 2: Household Size & Children Demographics
+Segmenting bike buyers by the number of children in their households reveals a strong concentration among smaller family structures:
+* **30%** of buyers have **0 children**.
+* **40%** of buyers have a small family unit with **1 to 2 children** (split equally at 20% each).
+* Large families represent a clear minority, with households of 5 children contributing just **4%** of total purchases.
+
+![Number of Children Demographic Chart](image/children_demographics_chart.png)
+
+*Business Recommendation: Company should focus more on families with 2 or less than 2 children*
