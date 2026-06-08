@@ -37,6 +37,6 @@ By implementing dynamic age segmentation, the data reveals that the primary cust
 * **Young Adults** follow closely behind at **44%**.
 * **Senior Citizens** make up the smallest consumer segment at just **4%**.
 
-![Age Group Demographic Chart](age_demographics_chart.png)
+![Age Group Demographic Chart](image/age_demographics_chart.png)
 
 *This breakdown suggests marketing campaigns should heavily target young and middle-aged working professionals.*
