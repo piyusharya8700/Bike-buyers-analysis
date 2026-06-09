@@ -51,3 +51,12 @@ Segmenting bike buyers by the number of children in their households reveals a s
 ![Number of Children Demographic Chart](image/children_demographics_chart.png)
 
 *Business Recommendation: Company should focus more on families with 2 or less than 2 children*
+
+### 🎯 Insight 3: Gender Segmentation (Male vs. Female)
+An analysis of buyer gender identity reveals a perfectly symmetrical split across the consumer base:
+* **Females** account for exactly **50%** of total bike purchases.
+* **Males** account for exactly **50%** of total bike purchases.
+
+![Gender Demographic Chart](image/MalenFemale_demographics_chart.png)
+
+*Business Recommendation: The product holds perfect gender neutrality. Which is a huge plus for company and company should maintain it*
