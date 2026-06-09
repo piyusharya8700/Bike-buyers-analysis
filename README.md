@@ -60,3 +60,12 @@ An analysis of buyer gender identity reveals a perfectly symmetrical split acros
 ![Gender Demographic Chart](image/MalenFemale_demographics_chart.png)
 
 *Business Recommendation: The product holds perfect gender neutrality. Which is a huge plus for company and company should maintain it*
+
+### 🎯 Insight 4: Marital Status Breakdown (Single vs. Married)
+Segmenting the consumer base by relationship status shows an incredibly balanced distribution, indicating strong product appeal across multiple lifestyle segments:
+* **Single** buyers represent **52%** of total bike purchases.
+* **Married** buyers represent **48%** of total bike purchases.
+
+![Marital Status Demographic Chart](image/Marital_status_demographics_chart.png)
+
+*Business Recommendation: Run ads showing single people commuting to work or college, and separate ads showing married couples riding together on weekends.*
