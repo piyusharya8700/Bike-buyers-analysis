@@ -69,3 +69,13 @@ Segmenting the consumer base by relationship status shows an incredibly balanced
 ![Marital Status Demographic Chart](image/Marital_status_demographics_chart.png)
 
 *Business Recommendation: Run ads showing single people commuting to work or college, and separate ads showing married couples riding together on weekends.*
+
+### 🎯 Insight 5: Occupation vs. Income of Bike Buyers
+Analyzing buyers by their job types and total income reveals which professional segments generate the most business:
+* **Professionals** are our largest market, buying nearly 150 bikes and contributing the highest total income.
+* **Skilled Manual** workers follow as the second-largest buying group.
+* **Manual** laborers represent the smallest segment, with both the lowest bike count and lowest total income.
+
+![Occupation and Income Demographic Chart](image/Occupation&Income_demographics.png)
+
+*Business Recommendation: Target premium, high-end bikes at Professionals and Management, while offering budget-friendly, durable commuter models for Manual and Clerical workers.*
