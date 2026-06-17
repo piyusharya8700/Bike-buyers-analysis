@@ -24,8 +24,28 @@ Before moving into analytical modeling, I executed a strict data cleaning workfl
 To prepare the dataset for deeper Pivot Table analysis and visualization, I completed:
 * **Dynamic Age Segmentation:** Implemented a nested `IF` logical formula to group individual customer ages into business-focused demographic buckets (`Young Adult`, `Middle age adult`, etc.).
 
+---
+
+## 🔬 Phase 2.5: Advanced Corporate Querying & Logical Auditing
+To prepare for professional Data Analyst technical evaluations, I built an analytical verification bench within the workbook. This section validates data integrity and handles multi-criteria filtering using advanced Excel functions instead of standard pivot filters.
+
+### Core Analytical Logic Implemented:
+* **Dynamic Record Extractions (`XLOOKUP`):** Engineered exact-match arrays to query structural indices (like `Customer ID`) and fetch nested financial variables directly, overriding traditional left-to-right column constraints.
+* **Intersection Demographics Counting (`COUNTIFS`):** Formulated cross-categorical matrices to count specific overlapping segments (e.g., isolating customers who are concurrently `Married` AND managing exactly `2 children`).
+* **Categorical Financial Aggregations (`SUMIFS`):** Wrote synchronized criteria aggregations to isolate and sum large-scale transactional metrics based on strict department titles (e.g., compounding total revenue generated solely by the `Professional` occupational sector).
+* **Nested Conditional Lookups (`IF + XLOOKUP`):** Combined logical conditions with nested lookups to audit back-end database flags (like `Home Owner` status) and automatically output tailored compliance strings (`Confirmed Owner` vs. `Renter`).
+
+### 📊 Formula Execution Reference
+The execution and exact logic of these queries are logged in the verification tab below:
+
+![Formula Practice Log](image/Screenshot%202026-06-17%20204923.png)
+
+*All formulas are live and testable inside the main spreadsheet file.*
+
+---
+
 ## 🛠️ Tech Stack
-* **Tool:** Microsoft Excel (AutoFilter Auditing, Logical Formulas, Text Standardization, Data Deduplication, Pivot Charts)
+* **Tool:** Microsoft Excel (AutoFilter Auditing, Advanced Lookups, Multi-Criteria Conditional Aggregations, Nested Logical Formulas, Text Standardization, Data Deduplication, Pivot Charts)
 
 ---
 
@@ -79,3 +99,11 @@ Analyzing buyers by their job types and total income reveals which professional 
 ![Occupation and Income Demographic Chart](image/Occupation&Income_demographics.png)
 
 *Business Recommendation: Target premium, high-end bikes at Professionals and Management, while offering budget-friendly, durable commuter models for Manual and Clerical workers.*
+
+---
+
+## How to test it out
+1. Download the `Cleaned Data.xlsx` file from this repository.
+2. Open it up in Microsoft Excel.
+3. Check out the custom formula test bench to see real-world, interview-grade data queries in action!
+4. Use the built-in Pivot Charts to explore interactive user demographic distributions.
