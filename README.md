@@ -2,13 +2,13 @@
 
 An end-to-end data analytics project using Microsoft Excel to analyze consumer demographic profiles. This repository serves as a live, evolving log of my progress as I transform raw transactional data into structured business insights.
 
-## 📁 Repository Files
+## Repository Files
 * `Raw Data.xlsx`: The original, unformatted dataset containing abbreviations and duplicate records.
 * `Cleaned Data.xlsx`: The finalized, deduplicated, and formatted dataset ready for analysis.
 
 ---
 
-## 🛠️ Phase 1: Data Cleaning & Quality Assurance
+## Phase 1: Data Cleaning & Quality Assurance
 Before moving into analytical modeling, I executed a strict data cleaning workflow to ensure data integrity:
 
 1. **Table Structuring & Alignment:** Standardized the visual layout and text alignment across the entire dataset for readability.
@@ -20,13 +20,13 @@ Before moving into analytical modeling, I executed a strict data cleaning workfl
 
 ---
 
-## 📈 Phase 2: Data Transformation & Feature Engineering
+## Phase 2: Data Transformation & Feature Engineering
 To prepare the dataset for deeper Pivot Table analysis and visualization, I completed:
 * **Dynamic Age Segmentation:** Implemented a nested `IF` logical formula to group individual customer ages into business-focused demographic buckets (`Young Adult`, `Middle age adult`, etc.).
 
 ---
 
-## 🔬 Phase 2.5: Advanced Corporate Querying & Logical Auditing
+## Phase 2.5: Advanced Corporate Querying & Logical Auditing
 To prepare for professional Data Analyst technical evaluations, I built an analytical verification bench within the workbook. This section validates data integrity and handles multi-criteria filtering using advanced Excel functions instead of standard pivot filters.
 
 ### Core Analytical Logic Implemented:
@@ -35,7 +35,7 @@ To prepare for professional Data Analyst technical evaluations, I built an analy
 * **Categorical Financial Aggregations (`SUMIFS`):** Wrote synchronized criteria aggregations to isolate and sum large-scale transactional metrics based on strict department titles (e.g., compounding total revenue generated solely by the `Professional` occupational sector).
 * **Nested Conditional Lookups (`IF + XLOOKUP`):** Combined logical conditions with nested lookups to audit back-end database flags (like `Home Owner` status) and automatically output tailored compliance strings (`Confirmed Owner` vs. `Renter`).
 
-### 📊 Formula Execution Reference
+### Formula Execution Reference
 The execution and exact logic of these queries are logged in the verification tab below:
 
 ![Formula Practice Log](image/Screenshot%202026-06-17%20204923.png)
@@ -44,15 +44,15 @@ The execution and exact logic of these queries are logged in the verification ta
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Tool:** Microsoft Excel (AutoFilter Auditing, Advanced Lookups, Multi-Criteria Conditional Aggregations, Nested Logical Formulas, Text Standardization, Data Deduplication, Pivot Charts)
 
 ---
 
-## 📊 Phase 3: Data Visualizations & Key Insights
+## Phase 3: Data Visualizations & Key Insights
 To uncover purchasing trends, I built targeted Pivot Charts to segment our buyers. 
 
-### 🎯 Insight 1: Age Demographics vs. Bike Ownership
+### Insight 1: Age Demographics vs. Bike Ownership
 By implementing dynamic age segmentation, the data reveals that the primary customer base is concentrated heavily in core working-age demographics:
 * **Middle-aged Adults** represent the highest conversion group at **52%**.
 * **Young Adults** follow closely behind at **44%**.
@@ -62,7 +62,7 @@ By implementing dynamic age segmentation, the data reveals that the primary cust
 
 *Business Recommendation: Marketing campaigns should heavily target young and middle-aged working professionals.*
 
-### 🎯 Insight 2: Household Size & Children Demographics
+### Insight 2: Household Size & Children Demographics
 Segmenting bike buyers by the number of children in their households reveals a strong concentration among smaller family structures:
 * **30%** of buyers have **0 children**.
 * **40%** of buyers have a small family unit with **1 to 2 children** (split equally at 20% each).
@@ -72,7 +72,7 @@ Segmenting bike buyers by the number of children in their households reveals a s
 
 *Business Recommendation: Company should focus more on families with 2 or less than 2 children*
 
-### 🎯 Insight 3: Gender Segmentation (Male vs. Female)
+### Insight 3: Gender Segmentation (Male vs. Female)
 An analysis of buyer gender identity reveals a perfectly symmetrical split across the consumer base:
 * **Females** account for exactly **50%** of total bike purchases.
 * **Males** account for exactly **50%** of total bike purchases.
@@ -81,7 +81,7 @@ An analysis of buyer gender identity reveals a perfectly symmetrical split acros
 
 *Business Recommendation: The product holds perfect gender neutrality. Which is a huge plus for company and company should maintain it*
 
-### 🎯 Insight 4: Marital Status Breakdown (Single vs. Married)
+### Insight 4: Marital Status Breakdown (Single vs. Married)
 Segmenting the consumer base by relationship status shows an incredibly balanced distribution, indicating strong product appeal across multiple lifestyle segments:
 * **Single** buyers represent **52%** of total bike purchases.
 * **Married** buyers represent **48%** of total bike purchases.
@@ -90,7 +90,7 @@ Segmenting the consumer base by relationship status shows an incredibly balanced
 
 *Business Recommendation: Run ads showing single people commuting to work or college, and separate ads showing married couples riding together on weekends.*
 
-### 🎯 Insight 5: Occupation vs. Income of Bike Buyers
+### Insight 5: Occupation vs. Income of Bike Buyers
 Analyzing buyers by their job types and total income reveals which professional segments generate the most business:
 * **Professionals** are our largest market, buying nearly 150 bikes and contributing the highest total income.
 * **Skilled Manual** workers follow as the second-largest buying group.
@@ -99,11 +99,3 @@ Analyzing buyers by their job types and total income reveals which professional 
 ![Occupation and Income Demographic Chart](image/Occupation&Income_demographics.png)
 
 *Business Recommendation: Target premium, high-end bikes at Professionals and Management, while offering budget-friendly, durable commuter models for Manual and Clerical workers.*
-
----
-
-## How to test it out
-1. Download the `Cleaned Data.xlsx` file from this repository.
-2. Open it up in Microsoft Excel.
-3. Check out the custom formula test bench to see real-world, interview-grade data queries in action!
-4. Use the built-in Pivot Charts to explore interactive user demographic distributions.
